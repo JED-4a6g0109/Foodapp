@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nSh-WU-8nL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="OZ9-b4-o9m">
+                                <rect key="frame" x="118" y="170" width="139" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="5zG-ht-nEI"/>
+                                    <constraint firstAttribute="width" constant="139" id="88C-zg-gJa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic_1" translatesAutoresizingMaskIntoConstraints="NO" id="Pd8-Ch-aFz">
+                                <rect key="frame" x="0.0" y="377" width="375" height="590"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="590" id="90q-HQ-M5t"/>
+                                    <constraint firstAttribute="width" constant="375" id="L3B-iU-mia"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="N6n-ny-tEW"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="590" id="SNE-Og-T9P"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="太菜也會煮菜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdl-Wk-oCt">
+                                <rect key="frame" x="123" y="308" width="129" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35083508941283509" green="0.79275063451776651" blue="0.61701426241807955" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vdl-Wk-oCt" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" constant="123" id="4B1-IM-3Q3"/>
+                            <constraint firstItem="Vdl-Wk-oCt" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" constant="123" id="58h-4c-8i3"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="trailing" secondItem="iri-cE-dae" secondAttribute="trailing" id="7Rx-WQ-DoN"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Pd8-Ch-aFz" secondAttribute="bottom" constant="-300" id="Fgp-ct-l27"/>
+                            <constraint firstItem="iri-cE-dae" firstAttribute="trailing" secondItem="Vdl-Wk-oCt" secondAttribute="trailing" constant="123" id="JAu-xp-ZmM"/>
+                            <constraint firstItem="iri-cE-dae" firstAttribute="trailing" secondItem="Vdl-Wk-oCt" secondAttribute="trailing" constant="123" id="Ny2-wv-kKo"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="trailing" secondItem="iri-cE-dae" secondAttribute="trailing" id="Omm-22-YBQ"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" id="Pyl-oc-bEq"/>
+                            <constraint firstItem="OZ9-b4-o9m" firstAttribute="top" secondItem="iri-cE-dae" secondAttribute="top" constant="170" id="R6N-37-BSX"/>
+                            <constraint firstItem="Vdl-Wk-oCt" firstAttribute="top" secondItem="OZ9-b4-o9m" secondAttribute="bottom" constant="10" id="TnV-dW-A4b"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" id="UxD-2Q-GPU"/>
+                            <constraint firstItem="OZ9-b4-o9m" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" constant="118" id="XeB-y6-vE9"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="trailing" secondItem="iri-cE-dae" secondAttribute="trailing" id="YdG-J8-xcd"/>
+                            <constraint firstAttribute="bottom" secondItem="Pd8-Ch-aFz" secondAttribute="bottom" constant="-300" id="gJT-IG-r6A"/>
+                            <constraint firstAttribute="bottom" secondItem="Pd8-Ch-aFz" secondAttribute="bottom" constant="-300" id="maV-rm-rds"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" id="ml5-en-oqU"/>
+                            <constraint firstItem="iri-cE-dae" firstAttribute="trailing" secondItem="OZ9-b4-o9m" secondAttribute="trailing" constant="118" id="o3A-A1-V33"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="trailing" secondItem="iri-cE-dae" secondAttribute="trailing" id="psI-KN-kfT"/>
+                            <constraint firstItem="Pd8-Ch-aFz" firstAttribute="leading" secondItem="iri-cE-dae" secondAttribute="leading" id="yNs-zD-Gjp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iri-cE-dae"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1070" height="1070"/>
+        <image name="pic_1" width="376" height="590"/>
+    </resources>
+</document>
