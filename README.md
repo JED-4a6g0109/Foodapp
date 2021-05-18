@@ -48,7 +48,7 @@
 
 ### Server recognition
 
-透過TCP方式，在IOS把圖像轉乘base64傳輸至Flask Server進行辨識，而使用YOLOv4進行遷移式學習
+透過TCP方式，在IOS把圖像轉換成base64傳輸至Flask Server進行辨識，而模型部分使用Pytorh 對YOLOv4權重進行遷移式學習，並輸出成.pth檔進行辨識
 
 ![image](https://github.com/JED-4a6g0109/Foodapp/blob/main/image/AI.gif)
 
