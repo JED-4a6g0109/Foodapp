@@ -8,7 +8,9 @@
 
 [![image](https://github.com/JED-4a6g0109/Foodapp/blob/main/image/AppStore.jpg)](https://jed-4a6g0109.github.io/?fbclid=IwAR1jRB0c1QW7wCZoTWttgmf6QQZxU9JHnMdzyyMS0Obm6n-r7ZLid02Cvcc)
 
-
+## 詳細介紹
+Youtube
+https://www.youtube.com/watch?v=ZHoiijwXpRA&ab_channel=Straw
 
 ## APP Previews
 
